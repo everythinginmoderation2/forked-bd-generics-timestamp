@@ -1,4 +1,4 @@
-package com.amazon.ata.generics.prework;
+package com.amazon.ata;
 
 import org.junit.jupiter.api.Test;
 

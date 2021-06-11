@@ -1,4 +1,4 @@
-package com.amazon.ata.generics.prework;
+package com.amazon.ata;
 
 import java.time.ZonedDateTime;
 
