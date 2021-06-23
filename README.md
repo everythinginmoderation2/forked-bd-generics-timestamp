@@ -1,10 +1,6 @@
 ## Using TimestampedData&lt;T&gt;
 
-**Branch name:** generics-prework
-
-**RDE workflows:**
-- `generics-prework-test`
-- `generics-prework-main`
+**GitHub repo:** [ebd-using-a-generic-type-timestamp](https://github.com/LambdaSchool/ebd-using-a-generic-type-timestamp)
 
 ### Context
 
@@ -67,11 +63,11 @@ You have completed this step when:
 
 You can run the tests from command line with:
 
-    `rde wflow run generics-prework-test`
+    `./gradlew -q clean :test`
     
 You have completed this step when:
 * You have updated all places marked with `PARTICIPANTS` comments in `TimestampedDataTest`
-* Workflow `generics-prework-test` is passing
+* All tests are passing
 
 ### Step 5: Use the class!
 
@@ -80,10 +76,6 @@ You have completed this step when:
    contents to the console using `System.out.println()`.
     * Think about what the generic parameter should be for this use of `TimestampedData`
     * Can you use `TimestampedData`'s `toString()` to make the eventual printing out simple?
-
-You can run the `main()` method from the command line with:
-
-    `rde wflow run generics-prework-main`
     
 You have completed this step when:
 * You have updated `logData()` to create a `TimestampedData` for each data/timestamp pair and print its contents.
