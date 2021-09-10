@@ -1,4 +1,4 @@
-## Using TimestampedData&lt;T&gt;
+## Using TimestampedData\<T>
 
 **GitHub repo:** [ebd-using-a-generic-type-timestamp](https://github.com/LambdaSchool/ebd-using-a-generic-type-timestamp)
 
