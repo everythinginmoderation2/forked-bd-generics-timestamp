@@ -1,7 +1,5 @@
 ## Using TimestampedData\<T>
 
-**GitHub repo:** [ebd-using-a-generic-type-timestamp](https://github.com/LambdaSchool/ebd-using-a-generic-type-timestamp)
-
 ### Context
 
 We're going to complete a new class, `TimestampedData`,
