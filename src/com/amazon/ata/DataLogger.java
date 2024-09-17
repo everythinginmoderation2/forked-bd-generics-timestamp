@@ -1,6 +1,8 @@
 package com.amazon.ata;
 
+import java.lang.reflect.Array;
 import java.time.ZonedDateTime;
+import java.util.List;
 
 /**
  * A class that simulates logging a series of data capturing integers representing data points collected over
@@ -53,8 +55,9 @@ public class DataLogger {
 
         // PARTICIPANTS - implement logic to create a TimestampedData from each dataValues/timestampValues pair
         // and print each to the console (using System.out.println())
-
-        // PARTICIPANTS - remove these lines once you've implemented the logic above
-        System.out.println("NOTE: logData() isn't fully implemented yet.");
+        for (int i = 0; i < dataValues.length; i++) {
+           TimestampedData<Integer> timestampedData = new TimestampedData<Integer>(dataValues[i], timestampValues[i]);
+           System.out.println(timestampedData);
+        }
     }
 }
